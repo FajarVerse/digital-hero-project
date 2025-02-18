@@ -1,1 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-open-sans: "Open Sans", sans-serif;
+  --color-digital-aqua: #00c6ff;
+  --color-deep-blue: #0072ff;
+  --color-indigo-blue: #1e1f4b;
+}
+
+.navbar-list {
+  @apply font-open-sans font-semibold text-lg text-black;
+}
+
+@layer components {
+  .navbar-list {
+    font-weight: 800;
+    font-size: 1.125rem;
+    color: black;
+  }
+}
