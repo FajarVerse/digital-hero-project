@@ -8,14 +8,17 @@
   --color-indigo-blue: #1e1f4b;
 }
 
-.navbar-list {
-  @apply font-open-sans font-semibold text-lg text-black;
-}
-
 @layer components {
   .navbar-list {
-    font-weight: 800;
-    font-size: 1.125rem;
+    font-family: var(--font-open-sans);
+    font-weight: 600;
+    font-size: 1rem;
     color: black;
+  }
+
+  .navbar-nonactive {
+    transform: translateY(-10%);
+    visibility: hidden;
+    opacity: 0;
   }
 }
