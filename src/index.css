@@ -27,4 +27,12 @@
   .segitiga {
     clip-path: polygon(100% 51%, 0 0, 0 100%);
   }
+
+  .background-icon {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 198, 255, 0.2) 0%,
+      rgba(0, 114, 255, 0.2) 100%
+    );
+  }
 }

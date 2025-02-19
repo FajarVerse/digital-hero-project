@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="absolute top-0 w-full bg-white">
+      <header className="fixed top-0 w-full bg-white">
         <div className="container mx-auto">
           <div className="w-full px-5 py-4 mx-auto flex items-center md:px-7 md:py-5 lg:px-10 xl:px-14">
             <div className="w-[90%] h-full flex gap-2 lg:w-full lg:flex lg:justify-center lg:items-center lg:gap-10 xl:gap-16">
