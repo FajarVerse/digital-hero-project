@@ -23,4 +23,8 @@
     visibility: hidden;
     opacity: 0;
   }
+
+  .segitiga {
+    clip-path: polygon(100% 51%, 0 0, 0 100%);
+  }
 }
