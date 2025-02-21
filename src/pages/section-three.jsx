@@ -4,7 +4,7 @@ import AuthLayout from "../components/layouts/AuthLayout";
 const SectionThree = () => {
   return (
     <>
-      <AuthLayout className="bg-white">
+      <AuthLayout className="bg-white" id="feature">
         <div className=" w-full px-5 md:px-7 lg:px-10 xl:px-20">
           <SectionThreeFragment />
         </div>

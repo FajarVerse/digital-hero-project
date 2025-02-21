@@ -30,7 +30,7 @@ const BottomFooterContent = () => {
         </div>
 
         <div className="w-full mt-5 flex justify-center gap-3 md:justify-end md:w-[20%] md:mt-0">
-          <a href="">
+          <a href="" className="hover:scale-105 transition-all duration-300">
             <svg
               className="w-7 h-7 md:w-5 md:h-5 xl:w-7 xl:h-7"
               viewBox="0 0 31 30"
@@ -56,7 +56,7 @@ const BottomFooterContent = () => {
             </svg>
           </a>
 
-          <a href="">
+          <a href="" className="hover:scale-105 transition-all duration-300">
             <svg
               className="w-7 h-7 md:w-5 md:h-5 xl:w-7 xl:h-7"
               viewBox="0 0 29 30"
@@ -100,7 +100,7 @@ const BottomFooterContent = () => {
             </svg>
           </a>
 
-          <a href="">
+          <a href="" className="hover:scale-105 transition-all duration-300">
             <svg
               className="w-7 h-7 md:w-5 md:h-5 xl:w-7 xl:h-7"
               viewBox="0 0 30 30"
@@ -140,7 +140,7 @@ const BottomFooterContent = () => {
             </svg>
           </a>
 
-          <a href="">
+          <a href="" className="hover:scale-105 transition-all duration-300">
             <svg
               className="w-7 h-7 md:w-5 md:h-5 xl:w-7 xl:h-7"
               viewBox="0 0 30 30"

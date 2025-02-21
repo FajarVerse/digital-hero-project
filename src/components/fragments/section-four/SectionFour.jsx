@@ -4,7 +4,7 @@ import Header from "../../elements/header";
 const SectionFourFragment = () => {
   return (
     <>
-      <div className="w-full mb-2 lg:mb-5">
+      <div className="w-full lg:mb-5">
         <Header className="text-indigo-blue">
           We Feel You, So We Built This!
         </Header>

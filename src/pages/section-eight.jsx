@@ -4,7 +4,7 @@ import AuthLayout from "../components/layouts/AuthLayout";
 const SectionEight = () => {
   return (
     <>
-      <AuthLayout className="xl:pt-28">
+      <AuthLayout className="xl:pt-28" id="testimonial">
         <div className="w-full px-5 md:px-10 lg:px-20 xl:px-28 2xl:px-48">
           <SectionEightFragment />
         </div>

@@ -4,7 +4,7 @@ import SectionNineFragment from "../components/fragments/sectio-nine/SectionNine
 const SectionNine = () => {
   return (
     <>
-      <section className="py-5 blue-gradient relative xl:py-10">
+      <section className="py-5 blue-gradient relative xl:py-10" id="contact">
         <div className="w-full relative z-30 px-5 md:px-10 md:flex items-center lg:px-14 xl:px-32">
           <SectionNineFragment/>
         </div>

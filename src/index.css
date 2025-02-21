@@ -14,11 +14,51 @@
 }
 
 @layer components {
+  .header-active {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(30, 31, 75, 0.2);
+  }
+
   .navbar-list {
     font-family: var(--font-open-sans);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1rem;
-    color: black;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+  }
+
+  .navbar-list::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    margin: 0 auto;
+    height: 2px;
+    background: linear-gradient(
+      142deg,
+      rgba(0, 198, 255, 1) 0%,
+      rgba(0, 114, 255, 1) 100%
+    );
+    transition: 0.5s ease-in-out;
+  }
+
+  .navbar-list:hover::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background: linear-gradient(
+      142deg,
+      rgba(0, 198, 255, 1) 0%,
+      rgba(0, 114, 255, 1) 100%
+    );
   }
 
   .navbar-nonactive {

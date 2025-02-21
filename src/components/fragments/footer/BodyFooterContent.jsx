@@ -7,7 +7,7 @@ import appstore from "../../../assets/image/footer/appstore.png";
 const BodyFooterContent = () => {
   return (
     <>
-      <div className="max-w-7xl  mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 md:justify-items-center">
+      <div className="max-w-7xl  mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:justify-items-center">
         <div>
           <img
             src={logo}
@@ -68,8 +68,8 @@ const BodyFooterContent = () => {
           </div>
 
           <div className="mt-6 flex flex-col gap-2">
-            <img src={googleplay} alt="Google Play" className="w-32" />
-            <img src={appstore} alt="App Store" className="w-32" />
+            <img src={googleplay} alt="Google Play" className="w-32 hover:scale-105 transition duration-300 ease-in-out" />
+            <img src={appstore} alt="App Store" className="w-32 hover:scale-105 transition duration-300 ease-in-out" />
           </div>
         </div>
 

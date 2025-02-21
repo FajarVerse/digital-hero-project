@@ -5,7 +5,7 @@ const Card = (props) => {
 
   return (
     <>
-      <div className="w-80 h-[27rem] rounded-2xl p-[0.150rem] bg-linear-to-br from-digital-aqua to-deep-blue md:w-[19rem] md:h-[25.7rem] md: mb-5 lg:w-[17rem] lg:h-[23rem] lg:mb-6">
+      <div className="w-80 h-[27rem] rounded-2xl p-[0.150rem] bg-linear-to-br from-digital-aqua to-deep-blue md:w-[19rem] md:h-[25.7rem] md: mb-5 lg:w-[17rem] lg:h-[23rem] lg:mb-6 hover:scale-105 transition duration-200 ease-in-out">
         <div className="w-full h-full bg-white rounded-[0.9rem] px-4 py-8">
           {children}
         </div>
