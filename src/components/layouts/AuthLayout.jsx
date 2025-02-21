@@ -3,7 +3,7 @@ const AuthLayout = (props) => {
 
   return (
     <>
-      <section className={`min-h-screen py-22 pb-10 ${className}`}>
+      <section className={`min-h-screen pt-22 pb-10 ${className}`}>
         <div className=" container mx-auto">{children}</div>
       </section>
     </>
