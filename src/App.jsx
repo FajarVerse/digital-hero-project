@@ -12,6 +12,13 @@ import CardTestimony from "./components/elements/section-eight/cardTestimony";
 import Indicator from "./components/elements/section-eight/indicator";
 import SectionEight from "./pages/section-eight";
 
+import shapeContact from "./assets/image/section9/shape_contact.png";
+import ilustrasi from "./assets/image/section9/ilus_contact.png";
+import Button from "./components/elements/button";
+import ShapeContact from "./components/elements/section-nine/shapeContact";
+import ButtonContact from "./components/elements/section-nine/buttonContact";
+import SectionNine from "./pages/section-nine";
+
 function App() {
   return (
     <>
@@ -24,6 +31,7 @@ function App() {
       <SectionSix />
       <SectionSeven />
       <SectionEight />
+      <SectionNine />
     </>
   );
 }

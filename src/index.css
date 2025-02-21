@@ -72,4 +72,12 @@
     height: 10px;
     background-color: #1e1f4b;
   }
+
+  .blue-gradient {
+    background: linear-gradient(
+      142deg,
+      rgba(0, 198, 255, 1) 0%,
+      rgba(0, 114, 255, 1) 100%
+    );
+  }
 }

@@ -4,7 +4,7 @@ const TestimonyContent = () => {
   return (
     <>
       <div className="w-full flex flex-col gap-20 md:flex-row md:gap-0">
-        <CardTestimony className="translate-x-5 xl:translate-x-14">
+        <CardTestimony className="lg:translate-x-5 xl:translate-x-14">
           <CardTestimony.CardHeader
             name="David Susanto"
             business="Babersho"
@@ -15,7 +15,7 @@ const TestimonyContent = () => {
             significant increase in efficiency and customer satisfaction.”
           </CardTestimony.CardBody>
         </CardTestimony>
-        <CardTestimony className="-translate-x-5 xl:-translate-x-20">
+        <CardTestimony className="lg:-translate-x-5 xl:-translate-x-20">
           <CardTestimony.CardHeader
             name="Sarah Wijaya"
             business="Beauty Clinic"
